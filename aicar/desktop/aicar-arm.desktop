@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=自动驾驶-取送货
+Comment=
+Exec=/home/zonesion/catkin_ws/src/aicar/bin/xcar-arm.sh
+Icon=/home/zonesion/catkin_ws/src/aicar/bin/autoarm.ico
+Path=
+Terminal=true
+StartupNotify=false

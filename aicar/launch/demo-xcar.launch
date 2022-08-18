@@ -1,0 +1,18 @@
+<launch>
+    <include file="$(find mbot)/launch/serial-node.launch"/>
+
+     <include file="$(find mbot)/launch/delta_lidar.launch"/>
+
+     <!-- 设置地图的配置文件 -->
+     <arg name="map" default="map_gmapping.yaml" />
+
+    <!-- 运行地图服务器，并且加载设置的地图-->
+    <node name="map_servers" pkg="map_server" type="map_server" args="$(find aicar)/maps/$(arg map)"/>
+
+    <include file="$(find aicar)/launch/amcl.launch"/>
+
+   <node name="rosDroid" pkg="mbot" type="rosDroid.py" output="screen">
+      <param name="name" value="XCarROS-ac"/>
+   </node>
+
+</launch>

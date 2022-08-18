@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=自动驾驶-红绿灯
+Comment=
+Exec=/home/zonesion/catkin_ws/src/aicar/bin/xcar-lightmode.sh
+Icon=/home/zonesion/catkin_ws/src/aicar/bin/autolm.ico
+Path=
+Terminal=true
+StartupNotify=false

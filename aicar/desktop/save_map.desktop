@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=地图保存
+Comment=
+Exec=bash /home/zonesion/catkin_ws/src/aicar/bin/saveMap.sh
+Icon=/home/zonesion/catkin_ws/src/aicar/bin/MAP.ico
+Path=
+Terminal=true
+StartupNotify=false

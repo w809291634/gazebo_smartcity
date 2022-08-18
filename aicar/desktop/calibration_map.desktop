@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=地图校准
+Comment=
+Exec=bash -c "cd /home/zonesion/catkin_ws/src/aicar/maps && python map_calibration.py" 
+Icon=/home/zonesion/catkin_ws/src/aicar/bin/cal.ico
+Path=
+Terminal=true
+StartupNotify=false
