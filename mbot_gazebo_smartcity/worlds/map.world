@@ -1,0 +1,1146 @@
+<sdf version='1.7'>
+  <world name='default'>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics name='default_physics' default='0' type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <audio>
+      <device>default</device>
+    </audio>
+    <wind/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <model name='map'>
+      <pose>-0.578394 0.308041 0 0 -0 0</pose>
+      <link name='Wall_29'>
+        <collision name='Wall_29_Collision'>
+          <geometry>
+            <box>
+              <size>6.59 0.08 0.75</size>
+            </box>
+          </geometry>
+          <pose>0 0 0.375 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_29_Visual'>
+          <pose>0 0 0.375 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>6.59 0.08 0.75</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>-3.23262 -0.0075 0 0 -0 -1.5708</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_31'>
+        <collision name='Wall_31_Collision'>
+          <geometry>
+            <box>
+              <size>6.5 0.08 0.75</size>
+            </box>
+          </geometry>
+          <pose>0 0 0.375 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_31_Visual'>
+          <pose>0 0 0.375 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>6.5 0.08 0.75</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>0.022625 -3.26172 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_37'>
+        <collision name='Wall_37_Collision'>
+          <geometry>
+            <box>
+              <size>6.606 0.08 0.75</size>
+            </box>
+          </geometry>
+          <pose>0 0 0.375 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_37_Visual'>
+          <pose>0 0 0.375 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>6.606 0.08 0.75</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>3.23138 -0.0025 0 0 -0 -1.5708</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_39'>
+        <collision name='Wall_39_Collision'>
+          <geometry>
+            <box>
+              <size>6.494 0.08 0.75</size>
+            </box>
+          </geometry>
+          <pose>0 0 0.375 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_39_Visual'>
+          <pose>0 0 0.375 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>6.494 0.08 0.75</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>-0.021624 3.2655 0 0 -0 3.14159</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+    </model>
+    <state world_name='default'>
+      <sim_time>304 536000000</sim_time>
+      <real_time>0 0</real_time>
+      <wall_time>1658978519 969570684</wall_time>
+      <iterations>0</iterations>
+      <model name='map'>
+        <pose>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='Wall_29'>
+          <pose>-3.23262 -0.0075 0 0 0 -1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_31'>
+          <pose>0.022621 -3.26172 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_37'>
+          <pose>3.23138 -0.0025 0 0 0 -1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_39'>
+          <pose>-0.021628 3.2655 0 0 -0 3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='marm'>
+        <pose>-0.176359 -1.18528 0.142764 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='arm_link_1'>
+          <pose>-0.091359 -1.19528 0.322764 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='arm_link_2'>
+          <pose>-0.101359 -1.18028 0.341764 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='arm_link_3'>
+          <pose>-0.101359 -1.18028 0.444764 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='arm_link_4'>
+          <pose>-0.101359 -1.18028 0.542764 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='arm_link_5'>
+          <pose>-0.101359 -1.18028 0.605764 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='base_link'>
+          <pose>-0.176359 -1.18528 0.142764 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='link_1'>
+          <pose>-0.069829 -1.2835 0.042764 1.5708 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='link_2'>
+          <pose>-0.069829 -1.08706 0.042764 1.5708 -0 -3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='link_3'>
+          <pose>-0.281817 -1.2835 0.042764 1.5708 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='link_4'>
+          <pose>-0.281819 -1.08706 0.042764 1.5708 -0 -3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='link_5'>
+          <pose>-0.020955 -1.15977 0.158764 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='my_ground_plane'>
+        <pose>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose>0 0 10 0 -0 0</pose>
+      </light>
+    </state>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>-1.16135 -6.47547 2.31688 -0 0.526918 1.2117</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+    <model name='my_ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>6.4 6.4</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>6.4 6.4</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/scripts</uri>
+              <uri>model://my_ground_plane/materials/textures/</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.622006 0.309159 0 0 -0 0</pose>
+    </model>
+    <model name='marm'>
+      <link name='base_link'>
+        <inertial>
+          <pose>-0.065301 0.001559 0.067311 0 -0 0</pose>
+          <mass>2.39809</mass>
+          <inertia>
+            <ixx>0.0102849</ixx>
+            <ixy>1.53427e-05</ixy>
+            <ixz>-0.00173945</ixz>
+            <iyy>0.00678012</iyy>
+            <iyz>6.19532e-06</iyz>
+            <izz>0.0136631</izz>
+          </inertia>
+        </inertial>
+        <collision name='base_link_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/base_link.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base_link_fixed_joint_lump__arm_base_link_collision_1'>
+          <pose>0.08455 0 0.104 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/base_link.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='base_link_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/base_link.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='base_link_fixed_joint_lump__arm_base_link_visual_1'>
+          <pose>0.08455 0 0.104 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/base_link.stl</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='arm_joint_1' type='revolute'>
+        <pose relative_to='base_link'>0.085 -0.01 0.18 0 -0 0</pose>
+        <parent>base_link</parent>
+        <child>arm_link_1</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-1.57</lower>
+            <upper>1.57</upper>
+            <effort>2.5</effort>
+            <velocity>3.49</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='arm_link_1'>
+        <pose relative_to='arm_joint_1'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>-0.000541 -0.010002 0.014716 0 -0 0</pose>
+          <mass>0.04138</mass>
+          <inertia>
+            <ixx>7.5324e-06</ixx>
+            <ixy>6.5712e-09</ixy>
+            <ixz>1.5271e-07</ixz>
+            <iyy>6.6408e-06</iyy>
+            <iyz>-1.3829e-10</iyz>
+            <izz>1.1356e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name='arm_link_1_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_1.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='arm_link_1_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_1.stl</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='arm_joint_2' type='revolute'>
+        <pose relative_to='arm_link_1'>-0.01 0.015 0.019 0 -0 0</pose>
+        <parent>arm_link_1</parent>
+        <child>arm_link_2</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-0.785</lower>
+            <upper>2.35619</upper>
+            <effort>2.5</effort>
+            <velocity>3.49</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='arm_link_2'>
+        <pose relative_to='arm_joint_2'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>-0.021459 0.000392 0.051972 0 -0 0</pose>
+          <mass>0.0197852</mass>
+          <inertia>
+            <ixx>7.24518e-06</ixx>
+            <ixy>-5.08946e-15</ixy>
+            <ixz>-2.03541e-13</ixz>
+            <iyy>1.57869e-05</iyy>
+            <iyz>-4.33328e-08</iyz>
+            <izz>1.03552e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name='arm_link_2_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_2.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='arm_link_2_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_2.stl</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='arm_joint_3' type='revolute'>
+        <pose relative_to='arm_link_2'>0 0 0.103 0 -0 0</pose>
+        <parent>arm_link_2</parent>
+        <child>arm_link_3</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-2.35619</lower>
+            <upper>2.35619</upper>
+            <effort>2.5</effort>
+            <velocity>3.49</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='arm_link_3'>
+        <pose relative_to='arm_joint_3'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>-0.024897 -0.000607 0.022896 0 -0 0</pose>
+          <mass>0.052419</mass>
+          <inertia>
+            <ixx>1.16039e-05</ixx>
+            <ixy>1.52192e-07</ixy>
+            <ixz>1.35096e-09</ixz>
+            <iyy>1.964e-05</iyy>
+            <iyz>-3.88328e-07</iyz>
+            <izz>1.21033e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name='arm_link_3_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_3.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='arm_link_3_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_3.stl</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='arm_joint_4' type='revolute'>
+        <pose relative_to='arm_link_3'>0 0 0.098 0 -0 0</pose>
+        <parent>arm_link_3</parent>
+        <child>arm_link_4</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-2.35619</lower>
+            <upper>2.35619</upper>
+            <effort>2.5</effort>
+            <velocity>3.49</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='arm_link_4'>
+        <pose relative_to='arm_joint_4'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>-0.024662 0.010167 0.019448 0 -0 0</pose>
+          <mass>0.079042</mass>
+          <inertia>
+            <ixx>1.88108e-05</ixx>
+            <ixy>6.70387e-09</ixy>
+            <ixz>-2.73301e-10</ixz>
+            <iyy>1.32224e-05</iyy>
+            <iyz>2.34209e-07</iyz>
+            <izz>1.88005e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name='arm_link_4_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_4.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='arm_link_4_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_4.stl</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='arm_joint_5' type='revolute'>
+        <pose relative_to='arm_link_4'>0 0 0.063 0 -0 0</pose>
+        <parent>arm_link_4</parent>
+        <child>arm_link_5</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-1.57</lower>
+            <upper>1.57</upper>
+            <effort>2.5</effort>
+            <velocity>3.49</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='arm_link_5'>
+        <pose relative_to='arm_joint_5'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>-0.004664 -0.000923 0.044076 0 -0 0</pose>
+          <mass>0.0960707</mass>
+          <inertia>
+            <ixx>8.75398e-05</ixx>
+            <ixy>5.56761e-08</ixy>
+            <ixz>6.45439e-07</ixz>
+            <iyy>4.43722e-05</iyy>
+            <iyz>1.81636e-06</iyz>
+            <izz>5.58484e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name='arm_link_5_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_5.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='arm_link_5_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/b/link_5.stl</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='joint_1' type='revolute'>
+        <pose relative_to='base_link'>0.10653 -0.098216 -0.1 1.5708 -0 0</pose>
+        <parent>base_link</parent>
+        <child>link_1</child>
+        <axis>
+          <xyz>0 0 -1</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='link_1'>
+        <pose relative_to='joint_1'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 -0.001011 0 -0 0</pose>
+          <mass>0.134028</mass>
+          <inertia>
+            <ixx>7.131e-05</ixx>
+            <ixy>1.17771e-21</ixy>
+            <ixz>2.40976e-21</ixz>
+            <iyy>7.131e-05</iyy>
+            <iyz>-1.20944e-21</iyz>
+            <izz>0.000109866</izz>
+          </inertia>
+        </inertial>
+        <collision name='link_1_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_1.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='link_1_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_1.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='joint_2' type='revolute'>
+        <pose relative_to='base_link'>0.10653 0.098216 -0.1 1.5708 -0 -3.14159</pose>
+        <parent>base_link</parent>
+        <child>link_2</child>
+        <axis>
+          <xyz>0 0 -1</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='link_2'>
+        <pose relative_to='joint_2'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 -0.001011 0 -0 0</pose>
+          <mass>0.134028</mass>
+          <inertia>
+            <ixx>7.131e-05</ixx>
+            <ixy>1.17752e-21</ixy>
+            <ixz>2.43988e-21</ixz>
+            <iyy>7.131e-05</iyy>
+            <iyz>-6.47128e-22</iyz>
+            <izz>0.000109866</izz>
+          </inertia>
+        </inertial>
+        <collision name='link_2_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_2.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='link_2_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_2.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='joint_3' type='revolute'>
+        <pose relative_to='base_link'>-0.105458 -0.098216 -0.1 1.5708 -0 0</pose>
+        <parent>base_link</parent>
+        <child>link_3</child>
+        <axis>
+          <xyz>0 0 -1</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='link_3'>
+        <pose relative_to='joint_3'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 -0.001011 0 -0 0</pose>
+          <mass>0.134028</mass>
+          <inertia>
+            <ixx>7.131e-05</ixx>
+            <ixy>1.17757e-21</ixy>
+            <ixz>2.3915e-21</ixz>
+            <iyy>7.131e-05</iyy>
+            <iyz>-5.28923e-22</iyz>
+            <izz>0.000109866</izz>
+          </inertia>
+        </inertial>
+        <collision name='link_3_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_3.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='link_3_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_3.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='joint_4' type='revolute'>
+        <pose relative_to='base_link'>-0.10546 0.098216 -0.1 1.5708 -0 -3.14159</pose>
+        <parent>base_link</parent>
+        <child>link_4</child>
+        <axis>
+          <xyz>0 0 -1</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='link_4'>
+        <pose relative_to='joint_4'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>-0 0 -0.001011 0 -0 0</pose>
+          <mass>0.134028</mass>
+          <inertia>
+            <ixx>7.131e-05</ixx>
+            <ixy>1.17764e-21</ixy>
+            <ixz>2.39598e-21</ixz>
+            <iyy>7.131e-05</iyy>
+            <iyz>-1.14719e-21</iyz>
+            <izz>0.000109866</izz>
+          </inertia>
+        </inertial>
+        <collision name='link_4_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_4.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='link_4_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_4.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='joint_5' type='revolute'>
+        <pose relative_to='base_link'>0.155404 0.025508 0.016 0 -0 0</pose>
+        <parent>base_link</parent>
+        <child>link_5</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='link_5'>
+        <pose relative_to='joint_5'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>-0.000103 -0.023 0.037392 0 -0 0</pose>
+          <mass>0.0459981</mass>
+          <inertia>
+            <ixx>3.70021e-05</ixx>
+            <ixy>-2.93744e-13</ixy>
+            <ixz>4.14495e-08</ixz>
+            <iyy>7.11271e-06</iyy>
+            <iyz>9.3759e-12</iyz>
+            <izz>3.30321e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name='link_5_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_5.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='link_5_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://marm_base/meshes/c/link_5.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>0</static>
+      <pose>-0.176359 -1.18528 0 0 -0 0</pose>
+    </model>
+  </world>
+</sdf>

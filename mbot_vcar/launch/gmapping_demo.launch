@@ -1,0 +1,13 @@
+<launch>
+  <!-- 让Gampping延时启动 -->   
+  <node name="timed_roslaunch" pkg="mbot_vcar" type="timed_roslaunch.sh"
+    args="7 mbot_vcar gmapping.launch"
+    output="screen"/>
+
+  <!-- 键盘控制 -->  
+  <include file="$(find mbot_vcar)/launch/mbot_teleop.launch"/>
+  
+  <!-- 运行rviz可视化界面 -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find mbot_vcar)/rviz/nav.rviz"/>
+
+</launch>

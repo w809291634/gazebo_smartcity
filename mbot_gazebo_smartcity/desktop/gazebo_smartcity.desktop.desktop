@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=自动驾驶
+Comment=
+Exec=env SVGA_VGPU10=0 bash '/home/zonesion/catkin_ws/src/mbot_gazebo_smartcity/bin/mbot_gazebo_smartcity.sh'
+Icon=/home/zonesion/catkin_ws/src/mbot_gazebo_smartcity/bin/auto.ico
+Path=
+Terminal=true
+StartupNotify=false
+Name[zh_CN]=gazebo_smartcity.desktop
